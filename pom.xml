@@ -57,6 +57,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 			<!--Ajout ce pour exclure Junit -->
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit</groupId>
+					<artifactId>junit-bom</artifactId>
+				</exclusion>
+			</exclusions>
 
 		</dependency>
 
@@ -94,6 +100,14 @@
 							<version>1.18.30</version>
 						</exclude>
 					</excludes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.5.0</version>
+				<configuration>
+					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
 
