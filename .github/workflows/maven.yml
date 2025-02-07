@@ -39,7 +39,7 @@ jobs:
         run:  mysql -u${{ secrets.DB_USER }} -p${{ secrets.DB_PASSWORD }} -e "source infra/mysql/dump/springboot.sql"
 
       - name: Install chrome Browser for selenium
-        uses: browser-action/setup-chrome@latest
+        uses: browser-actions/setup-chrome@latest
 
       - name: run chrome Browser for version control
         run: chrome --version
