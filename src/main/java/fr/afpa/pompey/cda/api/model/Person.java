@@ -36,7 +36,7 @@ public class Person {
 //        this.firstName = firstName;
 //    }
 
-    @Column(name="Lastname")
+    @Column(name="lastname")
     private String lastName;
 
 //    public String getLastName() {
