@@ -36,4 +36,4 @@ VALUES
   ("Sullivan","Imelda"),
   ("Stewart","Orlando"),
   ("Drake","Thor"),
-  ("Strickland","Adrienne");Lastname
+  ("Strickland","Adrienne");
