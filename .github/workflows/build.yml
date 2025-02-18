@@ -55,6 +55,7 @@ jobs:
           uses: actions/download-artifact@v4
           with:
             name: package.jar
+            path: target/*.jar
         - name: List files in the repository
           run: ls ${{ github.workspace }}
 
