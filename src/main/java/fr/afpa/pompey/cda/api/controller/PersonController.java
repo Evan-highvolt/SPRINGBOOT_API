@@ -41,6 +41,7 @@ public class PersonController {
             String lastName = person.getLastName();
             if (lastName != null) {
                 personToUpdate.setLastName(lastName);
+                
             }
             personService.savePerson(personToUpdate);
             return personToUpdate;
