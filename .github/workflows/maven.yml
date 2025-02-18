@@ -77,7 +77,7 @@ jobs:
         with:
           name: package.jar
           path: target/*.jar
-          retention-days: 1
+          retention-days: 10
 
       # message de fin indiquant que tout s'est bien passé
       - run: echo "🍏 This job's status is ${{ job.status }}."
