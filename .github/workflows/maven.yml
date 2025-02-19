@@ -75,7 +75,7 @@ jobs:
       - name: Charging artefact
         uses: actions/upload-artifact@v4
         with:
-          name: my-artifact
+          name: my-artifact.zip
           path: target/*.jar
 #          retention-days: 10
 
