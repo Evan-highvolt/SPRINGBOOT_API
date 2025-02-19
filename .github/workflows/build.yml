@@ -56,9 +56,6 @@ jobs:
           with:
             name: my-artifact
 
-        - name: Display structure of downloaded files
-          run: ls -R
-
         - name: List files in the repository
           run: ls ${{ github.workspace }}
 
