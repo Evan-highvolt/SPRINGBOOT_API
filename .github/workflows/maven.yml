@@ -101,7 +101,7 @@ jobs:
       - name: Download a single artifact
         uses: actions/download-artifact@v4
         with:
-          name: my-artifact.zip
+          name: my-artifact
 
       - name: List files in the repository
         run: ls ${{ github.workspace }}
