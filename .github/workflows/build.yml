@@ -56,7 +56,7 @@ jobs:
         - name: Download a single artifact
           uses: actions/download-artifact@v4
           with:
-            name: my-artifact
+            name: my-artifact.zip
 
         - name: List files in the repository
           run: ls ${{ github.workspace }}
