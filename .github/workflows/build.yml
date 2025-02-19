@@ -54,8 +54,11 @@ jobs:
         - name: Download a single artifact
           uses: actions/download-artifact@v4
           with:
-            name: package.jar
-            path: target/*.jar
+            name: my-artifact
+
+        - name: Display structure of downloaded files
+          run: ls -R
+
         - name: List files in the repository
           run: ls ${{ github.workspace }}
 
