@@ -31,7 +31,7 @@
 		<sonar.organization>evan-highvolt</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<selenium-java.version>4.17.0</selenium-java.version>
-		<webdriver.version>5.6.3</webdriver.version>
+		<webdriver.version>6.1.0</webdriver.version>
 	</properties>
 
 	<dependencies>
